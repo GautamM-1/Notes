@@ -11,7 +11,7 @@ function Card({ data , id,Delete }) {
         <Trash2 color="#7b1919" strokeWidth={1.5} size={16} />
       </button>
       <h2 className="font-semibold text-lg text-white">{data.title}</h2>
-      <p className="text-white/50 mt-2 wrap-break-word">{data.note}</p>
+      <p className="text-white/80 mt-2 wrap-break-word">{data.note}</p>
     </div>
   );
 }
